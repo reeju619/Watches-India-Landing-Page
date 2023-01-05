@@ -1,0 +1,212 @@
+@media screen and (max-width : 1200px){
+    .logo img {
+        width: 165px;
+    }
+    .banner-text {
+        top: 10%;
+    }
+    .banner-text p:nth-child(1) {
+        font-size: 35px;
+    }
+    .banner-text p:nth-child(2) {
+        font-size: 19px;
+    }
+    .new-store {
+        font-size: 22px;
+    }
+    .tab-list {
+        margin-bottom: 2em;
+    }
+    .tab-list li {
+        margin-bottom: 1rem;
+    }
+    .win-text-1 p:nth-child(5) {
+        font-size: 57px;
+    }
+}
+@media screen and (max-width : 992px) {
+    .banner-text {
+        text-align: center;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .form-sec::before {
+        content: none;
+    }
+    .tab-text, .tab-img {
+        position: static;
+        width: 100%;
+        transform: translateX(0);
+    }
+}
+@media screen and (max-width : 850px) {
+    .logo img {
+        width: 120px;
+    }
+    .banner {
+        overflow-x: clip;
+    }
+    /* .banner img {
+        width: auto;
+        height: 100%;
+        transform: translateX(-20%);
+    } */
+    .banner-text {
+        width: 100%;
+        margin-top: 0;
+        top: 65px;
+    }
+    .banner-text p:nth-child(1) {
+        font-size: 30px;
+    }
+    .banner-text p:nth-child(2) {
+        font-size: 16px;
+    }
+    .new-store {
+        font-size: 17px;
+    }
+    .location-wrap p:nth-child(2),.location-wrap p:nth-child(3)  {
+        font-size: 14px;
+    }
+    .coupon {
+        font-size: 17px;
+        padding-inline:1rem;
+        padding-top: .2rem;
+    }
+    .new-store img {
+        width: 30px;
+    }
+    footer, footer .social-icon {
+        text-align: center !important;
+    }
+    .social-icon {
+        margin-top: 1rem;
+    }
+    .win-text-1 p:nth-child(5) {
+        font-size: 50px;
+    }
+
+    /* 29.03.22 */
+    .desktop_banner { display: none;}
+    .mobile_banner { display: block;}
+}
+@media screen and (max-width : 450px) {
+    .you-vid {
+        height: 188px;
+    }
+    .welcome-con img {
+        margin-bottom: 0;
+    }
+    .form-con {
+        padding: 3em 4.7em;
+    }
+    footer {
+        padding: 1.5rem 0;
+    }
+    .follow-btn {
+        margin-bottom: 3.6rem;
+    }
+    .location-con {
+        padding: 4em 0 2em 0;
+    }
+    .win-text-1, .win-text-2 {
+        padding: 2.5em 0;
+    }
+    .embed-wrap {
+        margin-bottom: 2em;
+    }
+    .form-con form input {
+        padding: 4px 10px;
+    }
+    .form-con form {
+        margin-top: 2rem;
+    }
+    .submit {
+        width: 100% !important;
+        margin-top: 15px;
+        padding: 0 !important;
+        padding-top: 6px !important;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .banner-text  {
+        transform: translate(50% , -50%);
+    }
+    .banner-text p:nth-child(1) {
+        font-size: 24px;
+    }
+    .banner-text p:nth-child(2) {
+        font-size: 13px;
+    }
+    .new-store {
+        font-size: 15px;
+    }
+    .new-store a{
+        font-size: 16px;
+    }
+    .location-wrap p:nth-child(2),.location-wrap p:nth-child(3) {
+        font-size: 15px;
+    }
+    .coupon {
+        font-size: 16px;
+    }
+    .win-text-1 p:nth-child(1) {
+        font-size: 20px;
+        margin-bottom: .5rem;
+    }
+    .win-text-1 p:nth-child(4) {
+        margin-bottom: 0;
+        line-height: 4rem;
+        font-size: 22px;
+    }
+    .win-text-1 p:nth-child(5) {
+        font-size: 35px;
+    }
+    .win-text-1 p:nth-child(2), .win-text-1 p:nth-child(3) {
+        font-size: 45px;
+        line-height: 1;
+    }
+    .win-text-1 p:nth-child(6), .win-text-1 p:nth-child(7) {
+        font-size: 18px;
+    }
+    .win-text-2 p {
+        font-size: 18px;
+    }
+    .win-text-2 p:nth-child(1) {
+        font-size: 22px;
+    }
+    .w-store {
+        font-size: 22px;
+    }
+    .w-text span {
+        font-size: 18px;
+    }
+    .special-offer p:nth-child(2) {
+        font-size: 26px;
+    }
+    .form-con, .contact-con {
+        padding: 3rem 2.7rem;
+    }
+    .tab-list li {
+        margin-bottom: .5rem;
+    }
+    .tab-text {
+        font-size: 16px;
+    }
+    .tab-list ul li a {
+        font-size: 16px;
+    }
+    .tab-text {
+        padding-top: .6rem;
+    }
+    .modal-content.form-con {
+        padding: 1.5em;
+    }
+}
+
+@media screen and (max-width : 372px) {
+    .win-text-1 p:nth-child(5){
+        font-size: 23px;
+    }      
+}
